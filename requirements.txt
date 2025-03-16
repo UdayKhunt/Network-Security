@@ -3,4 +3,5 @@ pandas
 numpy
 scikit-learn
 pymongo
+pymongo[srv]==3.11
 # -e .
