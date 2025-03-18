@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Uday/DataScience/Network-Security-Project/mlruns/0/87d633596d754ec59a5eab55981adf39/artifacts
+end_time: 1742302002121
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87d633596d754ec59a5eab55981adf39
+run_name: popular-shrew-63
+run_uuid: 87d633596d754ec59a5eab55981adf39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742301994254
+status: 3
+tags: []
+user_id: Uday
