@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Uday/DataScience/Network-Security-Project/mlruns/0/0560c6688ff142258be9fcb9b2cfab43/artifacts
+end_time: 1742308601907
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0560c6688ff142258be9fcb9b2cfab43
+run_name: sassy-boar-339
+run_uuid: 0560c6688ff142258be9fcb9b2cfab43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742308594204
+status: 3
+tags: []
+user_id: Uday

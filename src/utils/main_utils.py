@@ -49,7 +49,7 @@ def load_numpy_array(filepath):
 def load_obj(filepath):
     try:
         with open(filepath , 'rb') as obj:
-            pickle.load(obj)
+            return pickle.load(obj)
     except Exception as e:
         raise NetworkSecurityException(e,sys)
     

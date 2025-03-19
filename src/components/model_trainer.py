@@ -11,6 +11,10 @@ from sklearn.linear_model import LogisticRegression
 import mlflow
 import sys
 
+# import dagshub
+# dagshub.init(repo_owner='UdayKhunt', repo_name='Network-Security', mlflow=True)
+
+
 class ModelTrainer:
     def __init__(self , model_trainer_config : ModelTrainerConfig, data_transformation_artifact : DataTransformationArtifact):
         self.model_trainer_config = model_trainer_config
@@ -85,7 +89,7 @@ class ModelTrainer:
 
             save_obj(self.model_trainer_config.trained_model_file_path , best_model)
 
-            return (self.model_trainer_config.trained_model_file_path,
+            return ModelTrainerArtifact(self.model_trainer_config.trained_model_file_path,
                     classfication_train_metric_artifact , 
                     classification_test_metric_artifact
                     )
